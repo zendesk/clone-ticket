@@ -1,0 +1,20 @@
+{
+  "name": "Clone",
+  "author": {
+    "name": "Jerry",
+    "email": "jeremiah@zendesk.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "private": false,
+  "location": "ticket_sidebar",
+  "version": "1.0.1",
+  "frameworkVersion": "1.0",
+  "parameters": [
+  {
+    "name": "Creation Limit",
+    "type": "number",
+    "required": true
+    }
+  ]
+}

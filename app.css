@@ -1,0 +1,58 @@
+header {
+  border: 0 0 0 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+a {
+  width: 80px;
+  padding: 5px 4px 6px 4px;
+  float: right;
+  font-size: 15px;
+}
+p, a {
+  text-align: center;
+}
+a.start {
+  width: 310px;
+  margin: 0 0 -10px 0;
+  font-weight: bold;
+}
+.btn-primary {
+  color: #FFFAF0;
+}
+.form-control {
+  width: 218px;
+  border-radius: 4px;
+  padding: 6px 0px 6px 6px;
+  border: 0 0 0 6px;
+  font-size: 14.5px;
+}
+.input-group {
+  margin: 0 0 -10px 0;
+}
+.pleaseConfirm {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+[placeholder]:focus::-webkit-input-placeholder { /*Hide placeholder value on focus*/
+  transition: opacity 2s 2s linear; 
+  opacity: 0;
+}
+input[type="text"], textarea {
+  background-color : #FBFBF8;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #c8c8c6;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #c8c8c6;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #c8c8c6;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #c8c8c6;
+}

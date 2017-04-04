@@ -1,0 +1,4 @@
+<div class="input-group">    
+  <input type="text" class="form-control" id='inputValueIdFirst' placeholder="Enter # clones to create" autofocus/>
+  <a class="btn btn-primary createTicket">Create</a>
+</div>

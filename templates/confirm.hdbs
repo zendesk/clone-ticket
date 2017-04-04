@@ -1,0 +1,4 @@
+<div class="input-group">    
+  <input type="text" class="form-control" id='inputValueIdSecond' placeholder="Please enter {{inputValueFirst}} to confirm"/>
+  <a class="btn btn-primary createTicketConfirm">Confirm</a>
+</div>
